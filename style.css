@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 
 }
 .navbar{
@@ -65,6 +66,10 @@
     font-size: 15px;
 
 
+}
+.btn>i{
+    padding: 50px;
+    margin-right: 50px;
 }
 .btn_container>img{
 }
