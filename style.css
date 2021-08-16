@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 
 }
 .navbar{
@@ -185,6 +186,203 @@ padding: 5px;
     padding: 10px;
 
 }
+.emni{
+    background-image: url('img/Group_33094_1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height: 230px;
+    margin: 30px auto;
+    width:50%;
+    padding: 25px;
+    position: relative;
+    display: flex;
+}
+.emni>a{
+text-decoration: none;
+color:white;
+background: tomato;
+padding: 10px;
+margin-top: 70px;
+border-radius: 10px;
+margin-left: 60%;
+font-size: 25px;
+position: absolute;
+
+}
+.emni>h1{
+    margin-top: 70px;
+    color: white;
+    margin-left: 50px;
+}
+/*-----------media queary----------*/
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display:flex;
+        width: 100%;
+        height: 50px;
+        text-decoration: none;
+        justify-content: flex-start;
+        background-color: coral;
+        align-items: center;
+        align-content: center;
+        
+    }
+    .navbar>div{
+        padding: 20px;}
+
+        .con1{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+        
+        }
+        .btn{
+            padding: 16px 30px;
+            border: none;
+            background-color: coral;
+            cursor: pointer;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 40px;
+            font-weight:bold ;
+            font-size: 15px;
+        
+  }
+  .hello{
+      font-size: 12px;
+  }
+  .pic1>img{
+      width: 200px;
+      height: 250px;
+
+  }
+  .con2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+}
+.btn2{
+    padding: 16px 30px;
+    border: none;
+    background-color: coral;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight:bold ;
+    font-size: 15px;
+
+
+}
+.pic2>img{
+    width: 200px;
+    height: 250px;
+
+}
+.con3{
+    background-color: rgb(255, 225, 188);
+    width: 100%;
+    height: 1250PX;
+    position: relative;
+    
+    
+}
+.prowrap{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.pro_1{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 90px;
+    border-radius: 20px;
+    margin-top: 200px;
+  text-align: center;
+  box-shadow: rgb(75, 68, 68);
+}
+.pro_2{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 90px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.pro_3{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 90px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.latesth1{
+    margin-top: 100px;
+    margin-left: 7%;
+    font-size: 30px;
+}
+.blue{
+    width: ;
+    
+ 
+}
+.image{
+    background-image: url('img/Group_33094_1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    display: ;
+    margin: 30px auto;
+    width:80%;
+    
+
+
+
+}
+.emni{
+    background-image: url('img/Group_33094_1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height: 130px;
+    margin: 30px auto;
+    width:80%;
+    padding: 25px;
+    position: relative;
+    display: flex;
+}
+.emni>a{
+text-decoration: none;
+color:white;
+background: tomato;
+padding: 10px;
+margin-top: 20px;
+border-radius: 10px;
+margin-left: 60%;
+font-size: 25px;
+position: absolute;
+
+}
+.emni>h1{
+    margin-top: 20px;
+    color: white;
+}
+
 
 
    
